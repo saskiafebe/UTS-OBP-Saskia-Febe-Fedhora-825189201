@@ -17,7 +17,7 @@ public class konversisuhu {
         while(!valid) {
             double Fahrenheit, Kelvin, Reamur, Celcius;
             System.out.println("Program Konversi Suhu");
-            System.out.print("Masukkan Suhu [C/F/R/K] (Misal: 100 R): ");
+            System.out.print("Masukkan Suhu [C/F/R/K] (Misal: 100 R(HARUS CAPITAL): ");
             suhu = a.nextDouble();
             awal = a.next().charAt(0);
 
