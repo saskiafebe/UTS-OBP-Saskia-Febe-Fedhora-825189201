@@ -28,7 +28,7 @@ public class konversisuhu {
                     Kelvin = fromcelcius.tokelvin();
                     System.out.println("Suhu = " + suhu + " Celcius");
                     System.out.println("Fahrenheit = " + Fahrenheit + " Derajat");
-                    System.out.println("Kelvin = " + Kelvin + " Derajat");
+                    System.out.println("Kelvin = " + Kelvin + " Kelvin");
                     System.out.println("Reamur = " + Reamur + " Derajat");
                     valid = true;
                     break;
@@ -38,7 +38,7 @@ public class konversisuhu {
                     Kelvin = fromfahrenheit.tokelvin();
                     System.out.println("Suhu =" + suhu + " Fahrenheit");
                     System.out.println("Celcius = " + Celcius + " Derajat");
-                    System.out.println("Kelvin = " + Kelvin + " Derajat");
+                    System.out.println("Kelvin = " + Kelvin + " Kelvin");
                     System.out.println("Reamur = " + Reamur + " Derajat");
                     valid = true;
                     break;
@@ -59,7 +59,7 @@ public class konversisuhu {
                     System.out.println("Suhu =" + suhu + " Reamur");
                     System.out.println("Celcius = " + Celcius + " Derajat");
                     System.out.println("Fahrenheit = " + Fahrenheit + " Derajat");
-                    System.out.println("Kelvin = " + Kelvin + " Derajat");
+                    System.out.println("Kelvin = " + Kelvin + " Kelvin");
                     valid = true;
                     break;
                 default:
